@@ -1,0 +1,28 @@
+[MAIN]
+ignore=.venv,.git,__pycache__
+ignore-patterns=^\.
+
+disable=
+    import-error, #This error is not accurate in github actions
+    missing-final-newline, #asks for newline at end of script
+    missing-module-docstring, #Asks for module docstring
+    trailing-whitespace, #does not like whitespaces
+    redefined-outer-name, 
+    pointless-string-statement,
+    attribute-defined-outside-init,
+    too-few-public-methods,
+    consider-using-alias,
+    implicit-str-concat,
+    trailing-newlines,
+    anomalous-backslash-in-string,
+    missing-function-docstring,
+    wrong-import-order,
+    bad-builtin,
+    missing-class-docstring,
+    consider-alternative-union-syntax,
+    consider-using-f-string,
+    f-string-without-interpolation,
+    wrong-import-position,
+    superfluous-parens,
+    global-variable-not-assigned,
+    global-statement
