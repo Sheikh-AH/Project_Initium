@@ -31,7 +31,7 @@ jobs:
       run: |
         find . -name "reqs_*.txt" -type f | while read file; do
           pip install -r "$file"
-        find . -name "requirements.txt" -type f | while read file; do
+        | find . -name "requirements.txt" -type f | while read file; do
           pip install -r "$file"
         done
 
