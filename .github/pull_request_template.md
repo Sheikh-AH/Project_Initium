@@ -1,8 +1,7 @@
 ## Description
-*Add Description of changes in pull request*
+<!-- What has been done? -->
 
-## Issue Addressed
-Closes 
 
-## Files changed/added
-*Any files or folders added or modified in this pull request*
+## Effort
+<!-- Any files/ folders added or modified in this PR -->
+

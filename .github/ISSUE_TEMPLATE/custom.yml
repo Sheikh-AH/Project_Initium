@@ -1,0 +1,36 @@
+name: Feature / Task
+description: New features and tasks
+title: "[FEATURE] "
+labels: ["feature"]
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Description of task, additional information required, location of any resources,any requirements, any constraints
+    validations:
+      required: true
+  - type: textarea
+    id: files
+    attributes:
+      label: Files & Folders Added or Changed
+      description: Any files/ folders that have been added or changed
+    validations:
+      required: false
+  - type: textarea
+    id: other-notes
+    attributes:
+      label: Other Notes
+      description: Anything extra you can think of.
+    validations:
+      required: false
+  - type: dropdown
+    id: effort
+    attributes:
+      label: Effort
+      options:
+        - Small (< 2hrs)
+        - Medium (2-4hrs)
+        - Large (4-8hrs)
+    validations:
+      required: true
