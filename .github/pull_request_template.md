@@ -1,8 +1,11 @@
 ## Description
-*Add Description of changes in pull request*
+<!-- What needs to be done? -->
 
-## Issue Addressed
-Closes 
 
-## Files changed/added
-*Any files or folders added or modified in this pull request*
+## Technical Notes
+<!-- AWS services, dependencies, or blockers -->
+
+
+## Effort
+<!-- Small (< 2hrs) / Medium (2-4hrs) / Large (4-8hrs) -->
+
