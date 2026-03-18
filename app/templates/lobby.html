@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Lobby</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='lobby.css') }}">
+    <script src="https://cdn.socket.io/4.5.4/socket.io.min.js"></script>
+</head>
+<body>
+    <div id="login-screen" class="screen">
+        <div class="login-container">
+            <h1>Welcome to the Game</h1>
+            <input type="text" id="username-input" placeholder="Enter your username" maxlength="20">
+            <input type="text" id="lobby-code-input" placeholder="Lobby code (optional)" maxlength="10">
+            <button id="join-btn">Join Lobby</button>
+        </div>
+    </div>
+
+    <div id="lobby-screen" class="screen hidden">
+        <div class="lobby-container">
+            <div class="lobby-header">
+                <h1>Game Lobby</h1>
+                <div class="lobby-code">Code: <span id="lobby-code-display"></span></div>
+            </div>
+
+            <div class="lobby-content">
+                <div class="players-section">
+                    <h2>Players</h2>
+                    <div id="players-list"></div>
+                </div>
+
+                <div class="chat-section">
+                    <h2>Chat</h2>
+                    <div id="chat-messages"></div>
+                    <div class="chat-input-container">
+                        <input type="text" id="chat-input" placeholder="Type a message...">
+                        <button id="send-btn">Send</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="lobby-actions">
+                <button id="ready-btn" class="btn-ready">Ready</button>
+                <button id="start-btn" class="btn-start hidden">Start Game</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='lobby.js') }}"></script>
+</body>
+</html>
