@@ -7,14 +7,21 @@ body:
     id: description
     attributes:
       label: Description
-      description: What needs to be done?
+      description: Description of task, additional information required, location of any resources,any requirements, any constraints
     validations:
       required: true
   - type: textarea
-    id: technical-notes
+    id: files
     attributes:
-      label: Technical Notes
-      description: AWS services, dependencies, or blockers
+      label: Files & Folders Added or Changed
+      description: Any files/ folders that have been added or changed
+    validations:
+      required: false
+  - type: textarea
+    id: other-notes
+    attributes:
+      label: Other Notes
+      description: Anything extra you can think of.
     validations:
       required: false
   - type: dropdown
