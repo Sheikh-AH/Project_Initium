@@ -1,11 +1,7 @@
 ## Description
-<!-- What needs to be done? -->
-
-
-## Technical Notes
-<!-- AWS services, dependencies, or blockers -->
+<!-- What has been done? -->
 
 
 ## Effort
-<!-- Small (< 2hrs) / Medium (2-4hrs) / Large (4-8hrs) -->
+<!-- Any files/ folders added or modified in this PR -->
 
