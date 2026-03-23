@@ -1,7 +1,7 @@
 body {
     font-family: 'Helvetica', sans-serif;
     background-color: #1d2535ff;
-    color: #ffffff;
+    color: #27d717ff;
     height: 100vh;
     overflow: hidden;
     margin: 0;
@@ -16,11 +16,10 @@ body {
 }
 
 .divider {
-    display: flex;
-    align-items: stretch;
+    background-image: url('./chain-cropped.svg');
+    background-repeat: repeat-y;
+    background-size: 40px auto; 
     width: 40px;
-    height: 100%;
-    color: #131825ff;
 }
 
 .UI-Nav-section {
@@ -48,13 +47,13 @@ body {
     display: flex;
     flex-direction: column;
     overflow-y: auto;
-    padding: 30px;
+    padding: 40px;
 }
 
 .info-section {
     background-color: #161b28ff;
     overflow-y: auto;
-    padding:30px;
+    padding:40px;
     border:none;
     border-left: 1px solid #131825ff;
     height: 100%;
